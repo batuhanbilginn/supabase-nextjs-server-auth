@@ -6,20 +6,34 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gen-types": "supabase gen types typescript --linked > types/supabase.ts"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.2",
+    "@radix-ui/react-dropdown-menu": "^2.0.4",
+    "@radix-ui/react-label": "^2.0.1",
+    "@radix-ui/react-separator": "^1.0.2",
+    "@supabase/auth-helpers-nextjs": "^0.5.6",
+    "@supabase/supabase-js": "^2.12.1",
     "@types/node": "18.15.5",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
+    "class-variance-authority": "^0.4.0",
+    "clsx": "^1.2.1",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
+    "lucide-react": "^0.127.0",
     "next": "13.2.4",
     "postcss": "8.4.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "server-only": "^0.0.1",
+    "swr": "^2.1.1",
+    "tailwind-merge": "^1.10.0",
     "tailwindcss": "3.2.7",
+    "tailwindcss-animate": "^1.0.5",
     "typescript": "5.0.2"
   }
 }
